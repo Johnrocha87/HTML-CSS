@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+Tudo em HTML é id = em CSS vira # (só pode um elemento com esse id na página)
+Tudo em HTML é class = em CSS vira . (pode ter vários elementos com essa class na página)
+*/
+
+BODY{
+background-color: rgb(205, 255, 203);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+color: rgb(15, 102, 15);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(0, 153, 0);
+    color: white;
+
+}
+
+H2{
+    color: rgb(0, 153, 0);
+}
+
+.basico{
+    color: rgb(0, 248, 0);
+}
+
+.intermediario{
+    color: rgb(154, 156, 1);
+
+}
+
+.avancado{
+    color: rgb(255, 0, 0);
+
+}
